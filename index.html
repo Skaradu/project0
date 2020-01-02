@@ -3,6 +3,7 @@
     <head>
         <title>My Webpage</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="nesting.css">
         <link rel="stylesheet" href="inheritance.css">
 
         <style>
@@ -44,20 +45,10 @@
           border: 2px solid black;
           }
 
-          ul {
-          font-size: 14px; }
-
-          ol {
-             font-size: 16px; }
-          P {
-            font-size: 18px;
+          p1::selection {
+              color: red;
+              background-color: yellow;
           }
-
-  div ul {
-    color: green; }
-  div p { color: blue; }
-  div ol {
-    color: red; }
 
         </style>
     </head>
@@ -65,17 +56,17 @@
     <div class="container">
      <h1>My Webpage</h1>
        <div class="box">
-           <img src="simp.jpg" height="15%" width="10%">
+           <img src="swot4.jpg" height="35%" width="30%">
        </div>
 
      <h2>Introduction</h2>
 
-        Creating a Personal SWOT Analysis for Your Career
+      <p1>Creating a Personal SWOT Analysis for Your Career
         When you need to assess a particular subject or decide how to overcome a challenge,
         it can be helpful to visualize all aspects of the situation.
         Learning how to use a SWOT analysis may help you form logical conclusions as you handle different decisions in your career.
         In this article, we will discuss the components of a SWOT analysis, why it is a useful tool and how to create a personal SWOT analysis.
-
+      </p1>
 
     <h3>Profile</h3>
       <table>
