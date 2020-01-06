@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="nesting.css">
         <link rel="stylesheet" href="inheritance.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <style>
             table {
@@ -50,6 +51,21 @@
               background-color: yellow;
           }
 
+          .grid {
+                    background-color: green;
+                    display: grid;
+                    padding: 20px;
+                    grid-column-gap: 20px;
+                    grid-row-gap: 10px;
+                    grid-template-columns: 200px 200px auto;
+                  }
+
+            .grid-item {
+                    background-color: white;
+                    font-size: 20px;
+                    padding: 20px;
+                    text-align: center;
+
         </style>
     </head>
    <body>
@@ -59,7 +75,7 @@
            <img src="swot4.jpg" height="35%" width="30%">
        </div>
 
-     <h2>Introduction</h2>
+       <h2>Introduction</h2>
 
       <p1>Creating a Personal SWOT Analysis for Your Career
         When you need to assess a particular subject or decide how to overcome a challenge,
@@ -120,6 +136,16 @@
           <li>Marketing experience</li>
        </ol>
      </div>
+
+  <h5>Swot Analysis</h5>
+     <div class="grid">
+            <div class="grid-item">Strengths</div>
+            <div class="grid-item">Weaknesses</div>
+            <div class="grid-item">Opportunities&Threats</div>
+            <div class="grid-item">Helpful to achieving the obejective</div>
+            <div class="grid-item">Harmful to achieving the obejective</div>
+            <div class="grid-item">External origin(attributes of the environment)& Internal origin(attributes of the organisation)</div>
+      </div>
 
           <h5>Links</h5>
           <ul>
