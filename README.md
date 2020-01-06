@@ -4,4 +4,4 @@ It has one stylesheet file which has different CSS properties, and different typ
 Your styleshee has included one mobile-responsive @media query, that the styling changes for smaller screens in background-color Magenta.
 It uses Bootstrap 4, and using Bootstrap columns for layout by using Bootstrap’s grid model.
 The stylesheet uses CSS variable, CSS nesting, and CSS inheritance.
-In conclusion, at select all selection pseudoelements of the element on <h1>Introduction</h1> paragraph the color is red and the bachground-color is yellow.
+In conclusion, at select all selection pseudoelements of the element on the h1 header Introduction paragraph the color is red and the bachground-color is yellow.
