@@ -8,19 +8,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <style>
-            table {
-               border: 2px solid black;
-               border-collapse: collapse;
-               width: 30px
-        }
-            th, td {
-               border: 1px solid black;
-               padding: 5px;
-               text-align: left;
-        }
-            th {
-               background-color: lightgray;
-        }
+
+            .row > div {
+                    padding: 5px;
+                    background-color: lightblue;
+                    border: 2px solid black;
+                    }
+
+                  table {
+                     border: 2px solid black;
+                     border-collapse: collapse;
+                     width: 30px;
+                }
+                  th, td {
+                     border: 1px solid black;
+                     padding: 5px;
+                     text-align: left;
+              }
+                  th {
+                     background-color: lightgray;
+              }
+
 
         div.box {
           text-align: left;
@@ -40,32 +48,25 @@
                  }
               }
 
-        .row > div {
-          padding: 5px;
-          background-color: lightblue;
-          border: 2px solid black;
-          }
-
           p1::selection {
               color: red;
               background-color: yellow;
           }
-
           .grid {
-                    background-color: green;
-                    display: grid;
-                    padding: 20px;
-                    grid-column-gap: 20px;
-                    grid-row-gap: 10px;
-                    grid-template-columns: 200px 200px auto;
-                  }
+                   background-color: green;
+                   display: grid;
+                   padding: 20px;
+                   grid-column-gap: 20px;
+                   grid-row-gap: 10px;
+                   grid-template-columns: 200px 200px auto;
+                 }
 
-            .grid-item {
-                    background-color: white;
-                    font-size: 20px;
-                    padding: 20px;
-                    text-align: center;
-
+           .grid-item {
+                   background-color: white;
+                   font-size: 20px;
+                   padding: 20px;
+                   text-align: center;
+                 }
         </style>
     </head>
    <body>
