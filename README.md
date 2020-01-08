@@ -5,5 +5,3 @@ Your styleshee has included one mobile-responsive @media query, that the styling
 It uses Bootstrap 4, and using Bootstrap columns for layout by using Bootstrap’s grid model.
 The stylesheet uses CSS variable, CSS nesting, and CSS inheritance.
 In conclusion, at select all selection pseudoelements of the element on the h1 header Introduction paragraph the color is red and the bachground-color is yellow.
-
-Note: Everything is working so good with my text editor. when I open my index.html with my browser, everything showed up in the way I build it, but once I open it from GitHub, the image is not appearing.
